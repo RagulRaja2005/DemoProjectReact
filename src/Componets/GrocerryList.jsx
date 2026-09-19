@@ -3,7 +3,7 @@ import axios from "axios";
 
 export default function GrocerryList() {
 
-    let hosturl = ("http://localhost:3000/grocerrylis/")
+    let hosturl = ("http://localhost:3000/grocerrylist/")
 
     const [items, setitems] = useState([]);
     const [inputdata, setinputdata] = useState("");
