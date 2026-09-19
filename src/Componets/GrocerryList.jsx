@@ -3,7 +3,7 @@ import axios from "axios";
 
 export default function GrocerryList() {
 
-    let hosturl = ("http://localhost:3000/grocerrylist/")
+    let hosturl = ("https://grocery-json-server-1.onrender.com/grocerrylist/")
 
     const [items, setitems] = useState([]);
     const [inputdata, setinputdata] = useState("");
